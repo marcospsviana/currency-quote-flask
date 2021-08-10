@@ -1,0 +1,4 @@
+-r requirements.in
+pytest
+flake8
+coverage
