@@ -39,10 +39,5 @@ flask-cors
 
  ```
 
- *create heroku app frontend*
-
- ```
- heroku apps:create currency-frontend-vue
-
- ```
+ 
 
