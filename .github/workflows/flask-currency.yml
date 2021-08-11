@@ -30,9 +30,6 @@ jobs:
 
     - name: Run Tests
       run: |
-<<<<<<< HEAD
         python -m pytest currency-quote-flask
-=======
-        python -m pytest currency-quote
->>>>>>> 8de0826fdfb85c0d0db54a39737d276d3d59b334
+
     
