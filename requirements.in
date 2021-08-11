@@ -2,3 +2,4 @@ flask
 python-decouple
 requests
 flask-cors
+gunicorn==20.1.0
