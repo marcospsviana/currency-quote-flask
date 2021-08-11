@@ -30,6 +30,6 @@ jobs:
 
     - name: Run Tests
       run: |
-        python -m pytest currency-quote-flask
+        python -m pytest
 
     
