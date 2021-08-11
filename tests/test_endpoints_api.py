@@ -69,9 +69,4 @@ def test_calc_quote_conversion():
     assert dollar * 2 == 11.4564
 
 
-def test_return_403_not_permited():
-    responses = requests.get(API)
-    if requests.post:
-        assert quotes_api.methods_not_allowed() == ("This method is not permited", 403)
-    if requests.get:
-        assert responses.status_code == 200
+
