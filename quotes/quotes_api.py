@@ -7,6 +7,15 @@ from flask_cors import cross_origin
 
 blueprints_bp = Blueprint("methods_not_allowed", __name__)
 
+class AutoConfig(object):
+    """
+    Autodetects the config file and type.
+    """
+    SUPPORTED = {
+        'settings.ini': RepositoryIni,
+        '.env': RepositoryEnv,
+    }
+
 
 API = config("QUOTE_API")
 
