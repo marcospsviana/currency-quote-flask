@@ -5,8 +5,6 @@ from datetime import datetime, date
 import responses
 import sys
 from decimal import Decimal, getcontext
-from quotes import quotes_api
-from quotes.quotes_api import blueprints_bp
 from flask import testing
 import os
 from pathlib import Path
