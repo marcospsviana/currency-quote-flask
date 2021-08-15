@@ -30,12 +30,12 @@ def current_quote():
     dollar_brl_ask = float(Decimal(response.json()["USDBRL"]["ask"]))
     eu_brl_bid = float(Decimal(response.json()["EURBRL"]["bid"]))
     eu_brl_ask = float(Decimal(response.json()["EURBRL"]["ask"]))
-    btc_brl_bid = float(Decimal(response.json()["BTCBRL"]["bid"]))
-    btc_brl_ask = float(Decimal(response.json()["BTCBRL"]["ask"]))
+    # btc_brl_bid = float(Decimal(response.json()["BTCBRL"]["bid"]))
+    # btc_brl_ask = float(Decimal(response.json()["BTCBRL"]["ask"]))
     data_quotes = {
         "USDBRL": f"{dollar_brl_bid}",
         "EURBRL": f"{eu_brl_bid}",
-        "BTCBRL": f"{btc_brl_bid}",
+        # "BTCBRL": f"{btc_brl_bid}",
     }
 
 
