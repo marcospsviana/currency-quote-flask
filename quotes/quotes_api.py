@@ -8,7 +8,6 @@ import os
 from pathlib import Path
 
 
-
 blueprints_bp = Blueprint("methods_not_allowed", __name__)
 
 
@@ -37,6 +36,5 @@ def current_quote():
         "EURBRL": f"{eu_brl_bid}",
         # "BTCBRL": f"{btc_brl_bid}",
     }
-
 
     return jsonify(data_quotes)

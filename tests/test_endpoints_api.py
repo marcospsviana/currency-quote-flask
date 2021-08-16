@@ -67,6 +67,3 @@ def test_calc_quote_conversion():
     dollar = float(Decimal(dollar.json()["USDBRL"]["ask"]))
     sys.__stdout__.write(f"dollar atual {dollar}")
     assert dollar * 2 == 11.4564
-
-
-
